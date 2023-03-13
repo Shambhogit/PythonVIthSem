@@ -1,6 +1,8 @@
 from AddEmployee import AddEmployee
 from DeleteEmp import DeleteEmp
 from DisplayEmp import DisplayEmp
+from Payment import Payment
+from SalaryTable import SalaryTable
 from SearchEmployee import SearchEmployee
 from UpdateInformation import UpdateInformation
 
@@ -24,8 +26,12 @@ class Main:
             print("===========================================================================================")
             try:
                 choise = int(input("Enter your choice...\n"))
+                print("===========================================================================================")
                 match choise:
                     case 8:
+                        print("YOUR LOGGED OUT NOW \nTHANKS FOR USING SYSTEM")
+                        print(
+                            "===========================================================================================")
                         break
                     case 1:
                         AddEmployee.add_employee(self)
@@ -35,8 +41,13 @@ class Main:
                         UpdateInformation.update_information(self)
                     case 4:
                         SearchEmployee.search_employee(self)
+                    case 5:
+                        Payment.payment(self)
                     case 6:
                         DisplayEmp.display_emp(self)
+                    case 7:
+                        SalaryTable.print_salary_table(self)
+
             except:
                 print("WRONG INPUT....!!!")
 
