@@ -1,8 +1,7 @@
 class SearchEmployee:
     def search_employee(self):
+        f = open("Employee.txt", "r")
         try:
-
-            f = open("Employee.txt", "r")
 
             print('''ENTER OPTION TO SEARCH EMPLOYEE
             1.BY EMP_ID
@@ -96,3 +95,4 @@ class SearchEmployee:
                         print("NO RECORD FOUND")
         except:
             print("SOMETHING WENT WRONG.....!!!!!!")
+        f.close()

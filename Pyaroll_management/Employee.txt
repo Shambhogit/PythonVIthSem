@@ -6,7 +6,6 @@
 1012 Raj 23/1/2004 manegment 120000
 1013 Naresh 15/8/2008 Electricle 23000
 1014 Durgesh 12/09/2013 Machanical 56000
-1233 Shambho 5/12/2000 It 50000
 1235 Shambho 7/12/2000 It 70000
 1236 Shambho 12/5/2000 It 80000
 1237 Shambho 12/12/2004 It 20000
@@ -14,3 +13,4 @@
 1239 Shambho 7/12/2000 It 60000
 1240 Vishal 31/4/2021 Selse 23000
 1241 Vighnesh 22/11/2003 Manegment 60000
+1242 Hanumant 12/04/2022 Electrical 69000
